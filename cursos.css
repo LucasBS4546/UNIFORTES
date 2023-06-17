@@ -1,0 +1,141 @@
+/* Estilização do corpo principal da página */
+
+main {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100vw;
+    height: auto;
+    min-height: 80vh;
+    padding-block: 3%;
+    padding-inline: 15%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(imagens/Background1.jpg);
+    background-size: auto;
+}
+
+
+#areaPrincipal {
+    margin-left: 5%; 
+    width: 95%;
+    margin-block: 1%;
+}
+
+.containerCurso {
+    margin-block: 1%;
+    width: 95%;
+    height: 100px;
+    border: 3px solid black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: white;
+}
+
+.separadorCurso {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 90%;
+    margin-left: 2%;
+}
+
+.separadorCurso h2 {
+    font-size: 25px;
+}
+
+.containerCurso button {
+    width: 50px;
+    height: 50px;
+    margin-right: 1.5%;
+    background-color: transparent;
+    border: none;
+}
+
+.containerCurso img {
+    width: 100%;
+    height: 100%;
+}
+
+.containerCurso img:hover {
+    cursor: pointer;
+}
+
+#setaB1, #setaB2, #setaB3, #setaB4 {
+    display: none;
+    width: 60px;
+    height: auto;
+}
+
+.barraProgresso {
+    background-color: #D9D9D9;
+    height: 30%;
+    width: 100%;
+}
+
+#progresso1 {
+    background-color: #05F26C;
+    height: 100%;
+    width: 100%;
+}
+
+#progresso2 {
+    background-color: #05F26C;
+    height: 100%;
+    width: 66%;
+}
+
+#progresso3 {
+    background-color: #05F26C;
+    height: 100%;
+    width: 33%;
+}
+
+#progresso4 {
+    background-color: #05F26C;
+    height: 100%;
+    width: 0%;
+}
+
+.subContaineresCurso {
+    margin-left: 4%; 
+    width: 90%;
+    display: none;
+}
+
+.subContainerCurso {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 2%;
+    flex-direction: row;
+    width: 100%;
+    height: 85px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-block: 1%;
+    background-color: white;
+}
+
+.subContainerCurso span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.subContainerCurso span a {
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+}
+
+.subContainerCurso span img {
+    width: 100%;
+    height: 100%;
+}
