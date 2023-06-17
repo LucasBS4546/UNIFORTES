@@ -186,6 +186,10 @@ main {
     height: 100%;
 }
 
+.containerCurso img:hover {
+    cursor: pointer;
+}
+
 #setaB1, #setaB2, #setaB3, #setaB4 {
     display: none;
     width: 60px;
