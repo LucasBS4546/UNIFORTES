@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="index.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cursos</title>
+    </head>
+
+
+<body>
+    <header>
+        <ul>
+            <li>
+                <a href="">
+                    <h1>Home</h1>
+                </a>
+            </li>
+            <li>|</li>
+            <li>
+                <a href="index.html">
+                    <h1 id="AbaAtual">Cursos</h1>
+                </a>
+            </li>
+        </ul>
+        <section>
+            <div>
+                <a href="">
+                    <h1>Recompensas</h1>
+                </a>
+                <a href="">
+                    <img src="imagens/IconeTrofeu.png" alt="IconeTrofeu">
+                </a>
+            </div>
+
+            <div>
+                <a href="">
+                    <h1>Perfil</h1>
+                </a>
+                <a href="">
+                    <img id="ImgPerfil" src="imagens/IconePerfil.jpg" alt="IconePerfil">
+                </a>
+            </div>
+        </section>
+    </header>    
+    <main>
+        <h1>Cursos Disponíveis</h1>
+        <section id="areaPrincipal">
+
+            <section class="containerCurso">
+                <div class="separadorCurso">
+                    <h2>Segurança de Trabalho</h2>
+                    <div class="barraProgresso">
+                        <div id="progresso1"></div>
+                    </div>
+                </div>
+                <button onclick="expandirSubContaineres(1)" id="botao1">
+                    <img src="imagens/IconeSetaDireita.png" alt="IconeSetaDireita" id="setaD1">
+                    <img src="imagens/IconeSetaBaixo.png" alt="IconeSetaBaixo" id="setaB1">
+                </button>
+            </section>
+
+            <section class="subContaineresCurso" id="subContaineresCurso1">
+                <div class="subContainerCurso">
+                    <span>
+                        <a href="">
+                            <img src="imagens/IconePlay.png" alt="IconePlay">
+                        </a>
+                        <h2>Equipamentos de segurança</h2>
+                    </span>
+                    <h2>Completo</h2> 
+                </div>
+                <div class="subContainerCurso">
+                    <span>
+                        <a href="">
+                            <img src="imagens/IconePlay.png" alt="IconePlay">
+                        </a>
+                        <h2>Ambiente de Trabalho</h2>
+                    </span>
+                    <h2>Completo</h2> 
+                </div>                
+            </section>
+
+
+
+            <section class="containerCurso">
+                <div class="separadorCurso">
+                    <h2>Planejamento Urbano</h2>
+                    <div class="barraProgresso">
+                        <div id="progresso2"></div>
+                    </div>
+                </div>
+                <button onclick="expandirSubContaineres(2)" id="botao2">
+                    <img src="imagens/IconeSetaDireita.png" alt="IconeSetaDireita" id="setaD2">
+                    <img src="imagens/IconeSetaBaixo.png" alt="IconeSetaBaixo" id="setaB2">
+                </button>
+            </section>
+
+            <section class="subContaineresCurso" id="subContaineresCurso2">
+                <div class="subContainerCurso">
+                    <span>
+                        <a href="">
+                            <img src="imagens/IconePlay.png" alt="IconePlay">
+                        </a>
+                        <h2>Saneamento Básico</h2>
+                    </span>
+                    <h2>Completo</h2> 
+                </div>
+                <div class="subContainerCurso">
+                    <span>
+                        <a href="">
+                            <img src="imagens/IconePlay.png" alt="IconePlay">
+                        </a>
+                        <h2>Engenharia de Tráfego</h2>
+                    </span>
+                    <h2>Completo</h2> 
+                </div>
+                <div class="subContainerCurso">
+                    <span>
+                        <a href="">
+                            <img src="imagens/IconePlay.png" alt="IconePlay">
+                        </a>
+                        <h2>Grandes Estruturas e Pontes</h2>
+                    </span>
+                    <h2>Incompleto</h2> 
+                </div>                
+            </section>
+
+
+
+            <section class="containerCurso">
+                <div class="separadorCurso">
+                    <h2>Estrutura de Cimento</h2>
+                    <div class="barraProgresso">
+                        <div id="progresso3"></div>
+                    </div>
+                </div>
+                <button onclick="expandirSubContaineres(3)" id="botao3">
+                    <img src="imagens/IconeSetaDireita.png" alt="IconeSetaDireita" id="setaD3">
+                    <img src="imagens/IconeSetaBaixo.png" alt="IconeSetaBaixo" id="setaB3">
+                </button>
+            </section>
+
+            <section class="subContaineresCurso" id="subContaineresCurso3">
+                <div class="subContainerCurso">
+                    <span>
+                        <a href="">
+                            <img src="imagens/IconePlay.png" alt="IconePlay">
+                        </a>
+                        <h2>Produção</h2>
+                    </span>
+                    <h2>Completo</h2> 
+                </div>
+                <div class="subContainerCurso">
+                    <span>
+                        <a href="">
+                            <img src="imagens/IconePlay.png" alt="IconePlay">
+                        </a>
+                        <h2>Aplicação</h2>
+                    </span>
+                    <h2>Incompleto</h2> 
+                </div>
+                <div class="subContainerCurso">
+                    <span>
+                        <a href="">
+                            <img src="imagens/IconePlay.png" alt="IconePlay">
+                        </a>
+                        <h2>Manutenção</h2>
+                    </span>
+                    <h2>Incompleto</h2> 
+                </div>                
+            </section>
+            
+
+
+            <section class="containerCurso">
+                <div class="separadorCurso">
+                    <h2>Instalações Elétricas</h2>
+                    <div class="barraProgresso">
+                        <div id="progresso4"></div>
+                    </div>
+                </div>
+                <button onclick="expandirSubContaineres(4)" id="botao4">
+                    <img src="imagens/IconeSetaDireita.png" alt="IconeSetaDireita" id="setaD4">
+                    <img src="imagens/IconeSetaBaixo.png" alt="IconeSetaBaixo" id="setaB4">
+                </button>
+            </section>
+
+            <section class="subContaineresCurso" id="subContaineresCurso4">
+                <div class="subContainerCurso">
+                    <span>
+                        <a href="">
+                            <img src="imagens/IconePlay.png" alt="IconePlay">
+                        </a>
+                        <h2>Cabos e Circuitos</h2>
+                    </span>
+                    <h2>Incompleto</h2> 
+                </div>
+                <div class="subContainerCurso">
+                    <span>
+                        <a href="">
+                            <img src="imagens/IconePlay.png" alt="IconePlay">
+                        </a>
+                        <h2>Implementação</h2>
+                    </span>
+                    <h2>Incompleto</h2> 
+                </div> 
+                <div class="subContainerCurso">
+                    <span>
+                        <a href="">
+                            <img src="imagens/IconePlay.png" alt="IconePlay">
+                        </a>
+                        <h2>Manutenção e Reparação</h2>
+                    </span>
+                    <h2>Incompleto</h2> 
+                </div>                      
+            </section> 
+        </section>
+    </main>
+    <footer>
+        <section>
+            <div>
+                <img src="imagens/IconeTelefone.png" alt="IconeTelefone">
+                <h3>(27) 3325-8883</h3>
+            </div>
+            <div>
+                <img src="imagens/IconeEmail.png" alt="IconeEmail">
+                <h3>fortes@fortes.ind.br</h3>
+            </div>
+        </section>
+        <img id="LogoFortesEngenharia" src="imagens/LogoFortesEngenharia.png" alt="">
+    </footer>
+</body>
+
+<script src="index.js"></script>
+
+</html>
