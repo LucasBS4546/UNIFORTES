@@ -1,0 +1,86 @@
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 80vh;
+    width: 100vw;
+    background-image: linear-gradient(180deg, rgb(3, 191, 137), #D9D9D9);
+    background-size: auto;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 70%;
+    height: 75%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.coluna1 {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.coluna2 {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.coluna3 {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+#colunaEspecial1 {
+    justify-content: center;
+}
+
+#colunaEspecial2 {
+    justify-content: center;
+}
+
+.seta {
+    width: 200px;
+}
+
+#invisivel {
+    opacity: 0;
+}
+
+.coluna1 div, .coluna2 div  {
+    width: 150px;
+    height: 100px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.coluna1 a, .coluna2 a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.coluna1 a:hover, .coluna2 a:hover {
+    text-decoration: underline;
+}
