@@ -1,3 +1,9 @@
+/*
+Já que todas as páginas utilizam, fundamentalmente, o mesmo cabeçalho e rodapé, teriamos que fazer a mesma estilização no .css de cada página.
+Por isso, decidimos fazer este .css universal, linkado em todas as páginas, com essas estilizações. As estilizações específicas vão ser feitas no .css específico de cada página.
+*/
+
+
 * {
     margin: 0;
     padding: 0;
@@ -5,7 +11,6 @@
 }
 
 
-/* Estilização do cabeçalho */
 
 header {
     display: flex;
@@ -76,7 +81,6 @@ header #ImgPerfil {
 }
 
 
-/* Estilização do rodapé */
 
 footer {
     display: flex;
