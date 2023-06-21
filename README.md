@@ -10,7 +10,7 @@
 
 **Turma:** cc1mc 2023/1.
 
-Aqui está armazenado os arquivos de **HTML**, **CSS** e **JavaScript** utilizados no desenvolvimento do projeto integrado *UNIFORTES* realizado na Universidade Vila Velha para a disciplina *Desenvolvimento Web*.
+Aqui estão armazenados os arquivos de **HTML**, **CSS** e **JavaScript** utilizados no desenvolvimento do projeto integrado *UNIFORTES* realizado na Universidade Vila Velha para a disciplina *Desenvolvimento Web*.
 
 <hr>
 
