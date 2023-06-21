@@ -1,0 +1,159 @@
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 80vh;
+    background-image:url(imagens/Background2.avif);
+    background-size: contain;
+    background-color: white;
+}
+
+#AreaPrincipal {
+    width: 75%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    border-left: gray 1px solid;
+    border-right: gray 1px solid;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+}
+
+#coluna1 {
+    height: 100%;
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+#coluna2 {
+    height: 100%;
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#caixa1 {
+    border: 0px solid black;
+    height: 28%;
+    width: 92%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#caixa1 img {
+    height: 80%;
+    margin-left: 5%;
+    margin-right: 4%;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+#caixa1  h1 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#caixa1 h2 {
+    font-size: 23px;
+    font-weight: 600;
+}
+
+#caixa2 {
+    border: 3px solid black;
+    height: 17%;
+    width: 92%;
+    padding-block: 5px;
+    padding-inline: 15px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+#subdivisao1 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+#subdivisao1 img {
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+}
+
+#subdivisao1 h4 {
+    font-size: 35px;
+    position: relative;
+    bottom: 3px
+}
+
+#subdivisao2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    left: 20px;
+}
+
+#subdivisao2 img {
+    width: 35px;
+    height: 35px;
+}
+
+#subdivisao2 h4 {
+    font-size: 25px;
+    position: relative;
+    bottom: 3px;
+    font-weight: 620;
+}
+
+#caixa3 {
+    border: 3px solid black;
+    height: 40%;
+    width: 92%;
+}
+
+#caixa3 iframe {
+    width: 100%;
+    height: 100%;
+}
+
+#caixa4 {
+    border: 3px solid black;
+    height: 92.5%;
+    width: 83%;
+}
+
+#titulo {
+    height: 12%;
+    border-bottom: 3px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#titulo h1 {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+#ranking {
+    height: 88%;
+}
+
+#ranking iframe {
+    width: 100%;
+    height: 100%;
+}

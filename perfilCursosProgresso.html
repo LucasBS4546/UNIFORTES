@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="perfil.css">
+    <style>
+
+        * {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            display: flex;
+            align-items: flex-start;
+            justify-content: flex-start;
+            flex-direction: column;
+            padding-block: 15px;
+            padding-inline: 10px;
+        }
+
+        #subdivisao3 {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+        }
+
+        #subdivisao3 img{
+            width: 55px;
+        }
+
+        #subdivisao3 h4 {
+            font-size: 30px;
+            font-weight: 750;
+            position: relative;
+            bottom: 3px;
+        }
+
+        .caixaProgresso {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            flex-direction: column;
+            margin-block: 35px;
+            position: relative;
+            left: 55px;
+        }
+
+        .barraProgresso {
+            width: 85vw;
+            height: 20px;
+            background-color: #D9D9D9;
+        }
+
+        #progresso1 {
+            background-color: #05F26C;
+            height: 100%;
+            width: 66%;
+        }
+
+        #progresso2 {
+            background-color: #05F26C;
+            height: 100%;
+            width: 33%;
+        }
+        
+        #progresso3 {
+            background-color: #05F26C;
+            height: 100%;
+            width: 0%;
+        }
+
+        h3 {
+            font-size: 30px;
+            font-weight: 600;
+        }
+
+    </style>
+    <title>Cursos em progresso</title>
+</head>
+<body>
+    <div id="subdivisao3">
+        <img src="imagens/IconeBookmark.png" alt="bookmark"> <h4>Cursos em progresso:</h4>
+    </div>
+    <div id="subdivisao4">
+        <div class="caixaProgresso">
+            <h3>Planejamento Urbano - 66%</h3>
+            <div class="barraProgresso">
+                <div id="progresso1"></div>
+            </div>
+        </div>
+        <div class="caixaProgresso">
+            <h3>Estrutura de Cimento - 33%</h3>
+            <div class="barraProgresso">
+                <div id="progresso2"></div>
+            </div>
+        </div>
+        <div class="caixaProgresso">
+            <h3>Instalações Elétricas - 0%</h3>
+            <div class="barraProgresso">
+                <div id="progresso3"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
